@@ -1,0 +1,12 @@
+CREATE TABLE plants (
+    name text,
+    image text,
+    description text,
+    price double,
+    sale int,
+);
+
+INSERT INTO `plants` (`name`, `price`, `description`, `image`, `sale`) VALUES ('plant1', '29.99', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida commodo mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.', '/plantimage/first.jpg', '30');
+INSERT INTO `plants` (`name`, `price`, `description`, `image`, `sale`) VALUES ('plant2', '14.99', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida commodo mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.', '/plantimage/sec.jpg', '0');
+INSERT INTO `plants` (`name`, `price`, `description`, `image`, `sale`) VALUES ('plant3', '19.99', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida commodo mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.', '/plantimage/iii.jpg', '0');
+INSERT INTO `plants` (`name`, `price`, `description`, `image`, `sale`) VALUES ('plant4', '9.99', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam gravida commodo mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra.', '/plantimage/iv.jpg', '10');
